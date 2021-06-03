@@ -6,5 +6,5 @@ release:
   command:
     - python manage.py collectstatic --noinput
 run:
-  web: gunicorn newspaper_project.wsgi
+  web: gunicorn todo_project.wsgi
 

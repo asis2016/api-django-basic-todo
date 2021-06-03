@@ -5,6 +5,9 @@ services:
     build: .
     #command: python /code/manage.py runserver 0.0.0.0:8000
     command: gunicorn todo_project.wsgi -b 0.0.0.0:8000
+    environment:
+      - SECRET_KEY=django-insecure-*b-vg)^t=m2dtax_17)!zzbxmthz+o+p&^=k9_+)awgjy9(!l+
+      - DEBUG=1
     volumes:
       - .:/code
     ports:
