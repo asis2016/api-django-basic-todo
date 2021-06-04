@@ -87,8 +87,8 @@ To run tests, run the following command
 
 ![/api/v1/](/screenshots/a.png)
 
-### /api/v1/${id}
-[/api/v1/${id}](https://api-basic-todo-amaharjan.herokuapp.com/api/v1/076c5ced-b976-4835-9509-c82ec646b041)
+### /api/v1/uuid
+[/api/v1/076c5ced-b976-4835-9509-c82ec646b041](https://api-basic-todo-amaharjan.herokuapp.com/api/v1/076c5ced-b976-4835-9509-c82ec646b041)
 
 ![/api/v1/${id}](/screenshots/b.png)
 
@@ -102,6 +102,3 @@ To register as an user, register from the link below
 
 ## Feedback
 If you have any feedback, please reach out to us at hello@amaharjan.com
-
-## Acknowledgements
- - []()  
