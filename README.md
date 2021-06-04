@@ -39,14 +39,16 @@ To run tests, run the following command
 ## Environment Variables
 `API_KEY` `django-insecure-*b-vg)^t=m2dtax_17)!zzbxmthz+o+p&^=k9_+)awgjy9(!l+`
 
+## Django REST framework Docs
+[/docs/](https://api-basic-todo-amaharjan.herokuapp.com/docs/)
 
-  
-## API Reference
-
-### Login (as admin)
+### Django REST framework login API Login (as admin)
 [/api-auth/login/?next=/api/v1/](https://api-basic-todo-amaharjan.herokuapp.com/api-auth/login/?next=/api/v1/)
 - username: admin
 - password: admin
+
+  
+## API Reference
 
 #### Get all todos
 
@@ -61,12 +63,12 @@ To run tests, run the following command
 #### Get todo
 
 ```http
-  GET /api/v1/${id}
+  GET /api/v1/${uuid}
 ```
 
 | Parameter | Type     
 | :-------- | :------- 
-| `id`      | `string` 
+| `uuid`      | `string` 
 
 ## Screenshots
 
@@ -89,6 +91,13 @@ To run tests, run the following command
 [/api/v1/${id}](https://api-basic-todo-amaharjan.herokuapp.com/api/v1/076c5ced-b976-4835-9509-c82ec646b041)
 
 ![/api/v1/${id}](/screenshots/b.png)
+
+### api/v1/rest-auth/registration/
+To register as an user, register from the link below
+
+[api/v1/rest-auth/registration/](https://api-basic-todo-amaharjan.herokuapp.com/api/v1/rest-auth/registration/)
+
+![api/v1/rest-auth/registration/](/screenshots/c.png)
 
 
 ## Feedback
