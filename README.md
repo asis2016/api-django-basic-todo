@@ -5,7 +5,7 @@ A Basic TODO App is made up of Django REST framework.
 
 
 ## Tech Stack
-Python, Django, Django REST framework, Swagger, gunicorn, Docker, Heroku
+Docker 20.10.6, Python 3.8, Django 3.2.3, Django REST framework, Whitenoise, Gunicorn, Heroku
 
   
 ## Run Locally
@@ -23,6 +23,10 @@ Go to the project directory
 ```
 
 Start the project
+
+```bash
+  docker build .
+```
 
 ```bash
   docker-compose up -d --build
@@ -72,10 +76,10 @@ To run tests, run the following command
 
 ## Screenshots
 
-### Administrator
+### Django Administrator
 [/admin/login/?next=/admin/](https://api-basic-todo-amaharjan.herokuapp.com/admin/login/?next=/admin/)
 
-![Administrator login](/screenshots/admin-login.png)
+![Django Administrator login](/screenshots/admin-login.png)
 
 ### Django REST framework login API Login (as admin)
 [/api-auth/login/?next=/api/v1/](https://api-basic-todo-amaharjan.herokuapp.com/api-auth/login/?next=/api/v1/)
