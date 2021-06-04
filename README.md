@@ -83,6 +83,7 @@ To run this project, you will need to add the following environment variables to
 ## Screenshots
 ### Administrator
 [/admin/login/?next=/admin/](https://api-basic-todo-amaharjan.herokuapp.com/admin/login/?next=/admin/)
+
 ![Administrator login](/screenshots/admin-login.png)
 
 ## Acknowledgements
