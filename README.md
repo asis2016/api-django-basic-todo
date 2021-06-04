@@ -34,18 +34,8 @@ Start the project
 If you have any feedback, please reach out to us at hello@amaharjan.com
 
   
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-  
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-  
 ## Running Tests
 
 To run tests, run the following command
@@ -59,15 +49,16 @@ To run tests, run the following command
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
+`API_KEY` `django-insecure-*b-vg)^t=m2dtax_17)!zzbxmthz+o+p&^=k9_+)awgjy9(!l+`
 
-`ANOTHER_API_KEY`
 
   
 ## API Reference
 
 ### Login (admin)
 [/api-auth/login/?next=/api/v1/](https://api-basic-todo-amaharjan.herokuapp.com/api-auth/login/?next=/api/v1/)
+- username: admin
+- password: admin
 
 #### Get all items
 
@@ -89,8 +80,11 @@ To run this project, you will need to add the following environment variables to
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
+## Screenshots
+### Administrator
+[/admin/login/?next=/admin/](https://api-basic-todo-amaharjan.herokuapp.com/admin/login/?next=/admin/)
+![Administrator login](/screenshots/admin-login.png)
 
-Takes two numbers and returns the sum.
+## Acknowledgements
 
-  
+ - []()  
