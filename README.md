@@ -28,16 +28,7 @@ Start the project
   docker-compose up -d --build
 ```
 
-  
-## Feedback
-
-If you have any feedback, please reach out to us at hello@amaharjan.com
-
-  
-
-
 ## Running Tests
-
 To run tests, run the following command
 
 ```bash
@@ -46,46 +37,62 @@ To run tests, run the following command
 
   
 ## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
 `API_KEY` `django-insecure-*b-vg)^t=m2dtax_17)!zzbxmthz+o+p&^=k9_+)awgjy9(!l+`
 
 
   
 ## API Reference
 
-### Login (admin)
+### Login (as admin)
 [/api-auth/login/?next=/api/v1/](https://api-basic-todo-amaharjan.herokuapp.com/api-auth/login/?next=/api/v1/)
 - username: admin
 - password: admin
 
-#### Get all items
+#### Get all todos
 
 ```http
-  GET /api/items
+  GET /api/v1/
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| Parameter | Type    
+| :-------- | :-------
+| `api_key` | `string`
 
-#### Get item
+#### Get todo
 
 ```http
-  GET /api/items/${id}
+  GET /api/v1/${id}
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| Parameter | Type     
+| :-------- | :------- 
+| `id`      | `string` 
 
 ## Screenshots
+
 ### Administrator
 [/admin/login/?next=/admin/](https://api-basic-todo-amaharjan.herokuapp.com/admin/login/?next=/admin/)
 
 ![Administrator login](/screenshots/admin-login.png)
 
-## Acknowledgements
+### Django REST framework login API Login (as admin)
+[/api-auth/login/?next=/api/v1/](https://api-basic-todo-amaharjan.herokuapp.com/api-auth/login/?next=/api/v1/)
 
+![Django REST framework login](/screenshots/api-login.png)
+
+### api/v1
+[/api/v1/](https://api-basic-todo-amaharjan.herokuapp.com/api/v1/)
+
+![/api/v1/](/screenshots/a.png)
+
+### /api/v1/${id}
+[/api/v1/${id}](https://api-basic-todo-amaharjan.herokuapp.com/api/v1/076c5ced-b976-4835-9509-c82ec646b041)
+
+![/api/v1/${id}](/screenshots/b.png)
+
+
+## Feedback
+If you have any feedback, please reach out to us at hello@amaharjan.com
+
+## Acknowledgements
  - []()  
