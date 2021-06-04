@@ -41,7 +41,7 @@ To run tests, run the following command
 
   
 ## Environment Variables
-`API_KEY` `django-insecure-*b-vg)^t=m2dtax_17)!zzbxmthz+o+p&^=k9_+)awgjy9(!l+`
+`SECRET_KEY` `django-insecure-*b-vg)^t=m2dtax_17)!zzbxmthz+o+p&^=k9_+)awgjy9(!l+`
 
 ## Django REST framework Docs
 [/docs/](https://api-basic-todo-amaharjan.herokuapp.com/docs/)
